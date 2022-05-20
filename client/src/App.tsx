@@ -2,9 +2,11 @@ import React, {useState} from 'react';
 import myApi from "./api/api";
 import './App.css';
 import axios from 'axios'
+import Meter from "./components/Meter";
+import Button from "./components/Button";
 
 function App() {
-    const [rate, setRate] = useState()
+    const [rate, setRate] = useState('')
 
     const handleClick= async ()=> {
         try {
@@ -21,13 +23,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>helelo</h1>
-        <h2>wtf</h2>
-        <button onClick={handleClick}>cl</button>
+        <Meter rate={rate} />
+        <Button name={'Rate'} onClick={handleClick}/>
         <div>
             {rate}
         </div>
-
     </div>
   );
 }
