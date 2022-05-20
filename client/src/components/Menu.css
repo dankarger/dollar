@@ -1,0 +1,9 @@
+.menu-div {
+    width:100%;
+    height:fit-content;
+    background-color: #61dafb;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}

@@ -1,0 +1,8 @@
+.quote-div {
+    width:90vw;
+    height: fit-content;
+    border: solid 2px black;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px grey;
+    transition: 1s ease-in-out;
+}

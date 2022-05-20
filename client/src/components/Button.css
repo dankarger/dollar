@@ -1,0 +1,17 @@
+.red {
+    width:50px;
+    height:30px;
+    background-color: rgba(140, 95, 10, 0.39);
+    color:red;
+}
+.yellow {
+    width:130px;
+    height:100px;
+    background-color: rgba(140, 95, 10, 0.39);
+    color:yellow;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
