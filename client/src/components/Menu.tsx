@@ -9,7 +9,7 @@ const Menu:React.FC<Props>=({children}:Props)=> {
 
     return (
         <div className={'menu-div'}>
-            Menu
+
             {children}
         </div>
     )

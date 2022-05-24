@@ -5,6 +5,7 @@ const rateController = require('../controller/rateController')
 
 
 rateRoute.get('/',rateController.getRate );
+rateRoute.get('/2',rateController.getJokeAxios);
 // imageRoute.post('/get',imageController.filterImages )
 // imageRoute.delete('/:id',imageController.deleteImage)
 // imageRoute.delete('/delete-all/:id',imageController.deleteAllImagesByUser)
